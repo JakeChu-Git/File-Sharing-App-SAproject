@@ -1,0 +1,124 @@
+.App {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+input[type='file'] {
+  border: 1px solid #ccc;
+  display: block;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+.SignOut {
+  padding: 10px 20px;
+}
+
+button {
+  background-color: #414341;
+  border: none;
+  color: white;
+  padding: 4px 12px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6cc76c;
+}
+
+b {
+  display: block;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.FileList {
+  text-align: left;
+  padding: 1rem;
+}
+
+.FileList div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.FileList button {
+  background-color: #337ab7;
+}
+
+.FileList button:hover {
+  background-color: #286090;
+}
+
+p {
+  color: #666;
+  text-align: center;
+  margin-left: 7px;
+}
+
+.UploadSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.FileInput {
+  padding: 0.5rem;
+}
+
+.UploadButton {
+  padding: 0.75rem;
+  cursor: pointer;
+  position: relative;
+  right: 240px;
+}
+
+.Notification {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.Notification.success {
+  background-color: #4CAF50;
+}
+
+.Notification.error {
+  background-color: #F44336;
+}
+
+.close {
+  padding: 1px;
+  position: relative;
+  left: 280px;
+  background-color: #4CAF50;
+  font-size: 12px;
+}
+
+
+
