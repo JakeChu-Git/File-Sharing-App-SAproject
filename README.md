@@ -1,7 +1,8 @@
 # SafeShare
 # A Secure File Sharing App
 
-This project was created for my something awesome project for COMP6841.
+This project was created for COMP6841. 
+To run the app, a firebase/AWS account and a locally-trusted development certificate (i.e. [mkcert](https://github.com/FiloSottile/mkcert)) are required.
 
 # Getting Started with Create React App
 
