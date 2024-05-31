@@ -2,19 +2,9 @@
 
 SafeShare is a secure file sharing web application developed for COMP6841. It allows users to securely upload and share files with other registered users of the app, ensuring data confidentiality, integrity, and availability.
 
-## Features
-
-- User registration and authentication using email and password
-- Secure file upload and download
-- File encryption using AES-256 before storage in the Firestore database
-- Key Management System (KMS) using AWS for secure key storage and rotation
-- Galois/Counter Mode (GCM) for AES to ensure data integrity
-- Rate and payload size limiting to protect against Denial of Service (DoS) attacks
-- HTTPS connection to protect data in transit
-
 ## Tech Stack
 
-- Backend: NodeJS, ExpressJS, Firebase (Authentication and Cloud Storage), AWS KMS
+- Backend: NodeJS, ExpressJS, Firebase (Authentication and Cloud Storage), AWS Key Management System
 - Frontend: React, CSS
 
 ## Getting Started
