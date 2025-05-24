@@ -1,6 +1,6 @@
 # SafeShare
 
-SafeShare is a secure file sharing web application developed for 6841 course (Extended Security Engineering and Cyber Security). It allows users to securely upload and share files with other registered users of the app, ensuring data confidentiality, integrity, and availability.
+SafeShare is a secure file sharing web application developed for Extended Security Engineering and Cyber Security course. It allows users to securely upload and share files with other registered users of the app, ensuring data confidentiality, integrity, and availability.
 
 ## Tech Stack
 
